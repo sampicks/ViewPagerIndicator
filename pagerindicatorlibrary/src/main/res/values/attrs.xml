@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerIndicatorView">
+        <attr name="solidColor" format="color"  />
+        <attr name="strokeColor" format="color" />
+        <attr name="selectedSolidColor" format="color"  />
+        <attr name="selectedStrokeColor" format="color" />
+        <attr name="numIndicator" format="integer" />
+    </declare-styleable>
+</resources>
