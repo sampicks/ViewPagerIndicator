@@ -6,20 +6,21 @@ You can include it into your application as follows.
 # Build.gradle
 Add following script into app/build.gradle
 
-repositories {
+<pre><code>repositories {
     maven { 
     url = 'https://jitpack.io' 
     }
-}
+} </code></pre>
 
+<pre><code>
 dependencies {
     compile 'com.github.sampicks:ViewPagerIndicator:1.0'
     }
+</pre></code>
 
 # Layout xml file
+You need to add following namespace.
        
-        You need to add following namespace.
-        
         xmlns:custom="http://schemas.android.com/apk/res-auto"
         
         <com.material.piyush.pagerindicatorlibrary.PagerIndicator
@@ -35,6 +36,7 @@ dependencies {
         custom:numIndicator="5"
         custom:solidColor="#ffffff"
         custom:strokeColor="#FF0000" />
+        
         
 # Java file
         
